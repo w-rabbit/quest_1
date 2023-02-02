@@ -1,8 +1,12 @@
 body {
     display:flex;
-    flex-direction:column;
+    flex-flow: column nowrap;
     margin:0;
     padding:0;
+    justify-content:space-around;
+    align-items:space-around;
+    flex-grow:1;
+    min-height: 100vh;
 }
 
 .header{
@@ -13,6 +17,8 @@ body {
     color:cornsilk;
     font-size:64px;
     font-weight:bold;
+    flex-grow:1;
+    height: max-content;
 }
 
 .button_container{
@@ -21,6 +27,8 @@ body {
     justify-content:space-around;
     align-items:center;
     flex-wrap:nowrap;
+    flex-grow:1;
+    height: max-content;
 }
 
 .button1{
@@ -62,11 +70,12 @@ body {
 
 .footer{
     display:flex;
-    flex-direction:row;
+    flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     background-color: slategray;
     color: black;
+    margin-top: auto;
 }
 
 /* BUTTON HOVER STYLES */
