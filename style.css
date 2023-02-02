@@ -68,3 +68,16 @@ body {
     background-color: slategray;
     color: black;
 }
+
+/* BUTTON HOVER STYLES */
+.button1:hover {
+    background-color: blue;
+}
+
+.button2:hover {
+    background-color: aquamarine;
+}
+
+.button3:hover {
+    background-color: yellow;
+}
